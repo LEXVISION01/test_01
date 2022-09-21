@@ -2,20 +2,38 @@
 
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        background-color: rgb(84, 192, 170);
+        text-align: center;
+        color: black;
+      }
+      button {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        border-radius: 10px;
+        border-color: black;
+        background-color: cyan;
+      }
+    </style>
     <script src="calculo.js"></script>
   </head>
   <body>
     <div class="container">
       <h1>CALCULE SEU IMC</h1>
-      <hr />
+      <hr color="gold" />
       <p>Informe sua Altura</p>
+
       <input type="text" id="altura" />
 
       <p>Informe seu Peso</p>
       <input type="text" id="peso" />
+      <br /><br />
 
       <button id="botao">Calcular</button>
-
+      <br />
+      <br />
       <div id="resultado"></div>
     </div>
   </body>
